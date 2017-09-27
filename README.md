@@ -1,2 +1,2 @@
 # j-woodlee
-This repo hosts my personal sight.
+This repo hosts my personal site.
