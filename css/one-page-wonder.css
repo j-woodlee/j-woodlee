@@ -48,18 +48,19 @@ header::before {
 
 header.masthead {
     background: url('../images/CapeCodBay-smaller.jpg') no-repeat center center scroll;
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*background-size: cover;*/
-    /*-o-background-size: cover;*/
-    /* Set a specific height */
-   height: 433px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 
-   /* Create the parallax scrolling effect */
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header.masthead > .overlay {
