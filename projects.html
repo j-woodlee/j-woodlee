@@ -29,32 +29,34 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home
+                <a class="nav-link" href="projects.html">Projects
                   <span class="sr-only">(current)</span>
                 </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="projects.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="experience.html">Experience</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
 
-      <section>
+    <header class="masthead">
+      <div class="overlay">
+        <div class="container">
+          <h2 class="display-1 text-white">Projects</h2>
+        </div>
+      </div>
+    </header>
+
+      <section class="fade-in-up">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-6 order-2">
-              <div class="p-5">
-              <a href="https://github.com/j-woodlee/crypto-arbitrage-bot">
-                  <img class="img-fluid pull-right" src="images/Bitcoin.png" alt="">
+              <div class="p-5 text-center">
+              <a href="https://github.com/j-woodlee/crypto-arbitrage-bot" target="_blank" rel="noopener">
+                  <img class="img-fluid" src="images/Bitcoin.png" alt="Cryptocurrency" style="max-width: 300px;">
               </a>
               </div>
             </div>
@@ -65,7 +67,7 @@
                     To take advantage of low liquidity and price inefficiency on MetalX, I created this profitable arbitrage bot.  It uses one of the most liquid exchanges in the world (Coinbase)
                     and finds opportunities to make money on MetalX. This was an experiment that I ran for several months using a Raspberry pi in my room with a principle of $2,000 where I reached a monthly volume on Coinbase of more than $50,000. 
                     I had great returns in that time frame, but ultimately decided to turn off the bot while I was profitable due to several risk factors that I wasn't comfortable with. A couple improvements could be made to mitigate risk, 
-                    but I haven't worked on this for awhile, contact me if you are interested.  I used a custom CCXT library that I developed for Metallicus, but this could be replaced with the open source @proton/ccxt for access to the MetalX api. <a href="https://github.com/j-woodlee/crypto-arbitrage-bot">Here</a> is the code.
+                    but I haven't worked on this for awhile, contact me if you are interested.  I used a custom CCXT library that I developed for Metallicus, but this could be replaced with the open source @proton/ccxt for access to the MetalX api. <a href="https://github.com/j-woodlee/crypto-arbitrage-bot" target="_blank" rel="noopener">View Code →</a>
                 </p>
               </div>
             </div>
@@ -77,9 +79,9 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-6">
-              <div class="p-5">
-              <a href="https://github.com/j-woodlee/sports_betting_scraper">
-                  <img class="img-fluid pull-right" src="images/Python-logo-notext.png" alt="">
+              <div class="p-5 text-center">
+              <a href="https://github.com/j-woodlee/sports_betting_scraper" target="_blank" rel="noopener">
+                  <img class="img-fluid" src="images/Python-logo-notext.png" alt="Python" style="max-width: 250px;">
               </a>
               </div>
             </div>
@@ -89,7 +91,7 @@
                 <p>
                     As a fun way to help my friends gain an edge in sports gambling, I created this bot that checks for arbitrage opportunities across the world of online sports betting.  If the odds are right, placing two
                     opposite bets on two different bookies can yield you a guaranteed return.  This bot uses a bookkeeper API to do those calculations for you and tells you what to bet to not only make a profit, but to also avoid suspicion.
-                    <a href="https://github.com/j-woodlee/sports_betting_scraper">Here</a> is the code.
+                    <a href="https://github.com/j-woodlee/sports_betting_scraper" target="_blank" rel="noopener">View Code →</a>
                 </p>
               </div>
             </div>
@@ -101,9 +103,9 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-6 order-2">
-              <div class="p-5">
-              <a href="https://github.com/j-woodlee/SchoolFlo">
-                  <img class="img-fluid pull-right" src="images/schoolflo-logo-2.png" alt="">
+              <div class="p-5 text-center">
+              <a href="https://github.com/j-woodlee/SchoolFlo" target="_blank" rel="noopener">
+                  <img class="img-fluid" src="images/schoolflo-logo-2.png" alt="SchoolFlo" style="max-width: 300px;">
               </a>
               </div>
             </div>
@@ -114,7 +116,7 @@
                     For my final senior project at Loyola Marymount University, I worked in a cross-disciplinary team of engineers and business people
                     to make the lives of elementary aged students, teachers, and parents easier.  We created a web application that digitizes
                     school permission slips in order to remove the hassle of physical form transfer and signing. We used Node.js, Express, Sequelize, Postgres, and AWS Elastic Beanstalk/RDS.
-                    To view the API that I created, see <a href="https://github.com/j-woodlee/schoolflo-api">here.</a>
+                    To view the API that I created, see <a href="https://github.com/j-woodlee/schoolflo-api" target="_blank" rel="noopener">here →</a>
 
                 </p>
               </div>
@@ -127,9 +129,9 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6">
-            <div class="p-5">
-              <a href="https://j-woodlee.github.io/JCaml/">
-                  <img class="featurette-image img-rounded img-responsive" src="images/jcaml.png" width="500" height="500">
+            <div class="p-5 text-center">
+              <a href="https://j-woodlee.github.io/JCaml/" target="_blank" rel="noopener">
+                  <img class="img-fluid" src="images/jcaml.png" alt="JCaml" style="max-width: 350px;">
               </a>
             </div>
           </div>
@@ -138,11 +140,9 @@
               <h2 class="display-4">JCaml</h2>
               <p>JCaml is a functional programming language I created with a small group for our Compilers class.
 
-                  We used a variety of technologies, including: <a href ="https://nodejs.org/en/">Node.js</a>, <a href ="https://github.com/harc/ohm">Ohm</a>, <a href ="http://github.com/tabatkins/railroad-diagrams">Railroad diagrams</a>, and <a href ="https://jasmine.github.io/">Jasmin.</a>
-                  <br>
-                  Click on the image to the right or <a href ="https://j-woodlee.github.io/JCaml/">here</a> to see the JCaml site.
-                  <br>
-                  <a href ="https://github.com/j-woodlee/JCaml">Here</a> is the repo on Github.
+                  We used a variety of technologies, including: <a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a>, <a href="https://github.com/harc/ohm" target="_blank" rel="noopener">Ohm</a>, <a href="http://github.com/tabatkins/railroad-diagrams" target="_blank" rel="noopener">Railroad diagrams</a>, and <a href="https://jasmine.github.io/" target="_blank" rel="noopener">Jasmine</a>.
+                  <br><br>
+                  <a href="https://j-woodlee.github.io/JCaml/" target="_blank" rel="noopener">View Site →</a> | <a href="https://github.com/j-woodlee/JCaml" target="_blank" rel="noopener">View Code →</a>
               </p>
             </div>
           </div>
@@ -154,9 +154,9 @@
      <div class="container">
        <div class="row align-items-center">
          <div class="col-md-6 order-2">
-           <div class="p-5">
-             <a href="https://cryptosym.com/">
-                 <img class="featurette-image img-rounded img-responsive pull-right" src="images/Screenshot (2).png" width="500" height="500">
+           <div class="p-5 text-center">
+             <a href="https://cryptosym.com/" target="_blank" rel="noopener">
+                 <img class="img-fluid" src="images/Screenshot (2).png" alt="CryptoSym" style="max-width: 400px;">
              </a>
            </div>
          </div>
@@ -170,7 +170,7 @@
                  We used Node, React, Express, Sequelize, Postgres, and AWS ElasticBeanstalk/RDS.
 
                  I primarily worked on the frontend and learned the basics of React, while using various API calls to handle the trading of currencies.
-                 If open source at the time of reading, the code can be found <a href="https://github.com/JeremyHi/CryptoSym">here. </a>  The website is <a href="https://cryptosym.com/">https://cryptosym.com/</a>.
+                 If open source at the time of reading, the code can be found <a href="https://github.com/JeremyHi/CryptoSym" target="_blank" rel="noopener">here →</a>  Visit the website at <a href="https://cryptosym.com/" target="_blank" rel="noopener">cryptosym.com</a>.
              </p>
            </div>
          </div>
@@ -182,11 +182,9 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6">
-            <div class="p-5">
-
-
-            <a href="https://lmu-bioinformatics.github.io/xmlpipedb/">
-                <img class="img-fluid rounded-circle" src="images/logo-BlackOutlineWhite-Pipe.jpg" alt="">
+            <div class="p-5 text-center">
+            <a href="https://lmu-bioinformatics.github.io/xmlpipedb/" target="_blank" rel="noopener">
+                <img class="img-fluid rounded-circle" src="images/logo-BlackOutlineWhite-Pipe.jpg" alt="XMLPipeDB" style="max-width: 300px;">
             </a>
             </div>
           </div>
@@ -196,8 +194,7 @@
               <p>
                   Worked in a team of four to contribute to Loyola Marymount University Bioinformatic's open source project XMLPipeDB.
                   Personally, I wrote some Java to facilitate the integration of XML input files into a relational database powered by PostgreSQL.
-                  Code is <a href="https://github.com/lmu-bioinformatics/xmlpipedb">here.</a>
-                  Website for project is <a href="https://lmu-bioinformatics.github.io/xmlpipedb/here">here.</a>
+                  <a href="https://github.com/lmu-bioinformatics/xmlpipedb" target="_blank" rel="noopener">View Code →</a> | <a href="https://lmu-bioinformatics.github.io/xmlpipedb/" target="_blank" rel="noopener">View Website →</a>
               </p>
             </div>
           </div>
@@ -209,9 +206,9 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 order-2">
-            <div class="p-5">
-              <a href="http://dappathon.com/">
-                  <img class="featurette-image img-rounded img-responsive" src="images/dappathon.png" width="500" height="500">
+            <div class="p-5 text-center">
+              <a href="http://dappathon.com/" target="_blank" rel="noopener">
+                  <img class="img-fluid" src="images/dappathon.png" alt="dAppathon" style="max-width: 350px;">
               </a>
             </div>
           </div>
@@ -222,10 +219,9 @@
                   In the August of 2017, I applied and was accepted into a decentralized application (dApp) competition, where we had one weekend to create
                   and pitch a dApp to a panel of judges.  My partner and I created a blockchain based, fully automated, hotel management system, which allows
                   customers to book anonymously with the security benefits of the Ethereum blockchain.
-                  This competition was sponsored by <a href="https://bcgdv.com/">BCG Digital Ventures</a> and <a href="https://dvolution.com/">DVolution</a>.
-
-                  Our code can be found <a href="https://github.com/JeremyHi/dAppathon">here, </a> and is a combination of Solidity, Javascript, HTML, and CSS. We worked for three days, and while we did not win, we nonetheless gained
-                  valuable experience with a technology that is rapidly changing the world.
+                  This competition was sponsored by <a href="https://bcgdv.com/" target="_blank" rel="noopener">BCG Digital Ventures</a> and <a href="https://dvolution.com/" target="_blank" rel="noopener">DVolution</a>.
+                  <br><br>
+                  Our code can be found <a href="https://github.com/JeremyHi/dAppathon" target="_blank" rel="noopener">here →</a> and is a combination of Solidity, Javascript, HTML, and CSS. We worked for three days, and while we did not win, we nonetheless gained valuable experience with a technology that is rapidly changing the world.
 
               </p>
             </div>
